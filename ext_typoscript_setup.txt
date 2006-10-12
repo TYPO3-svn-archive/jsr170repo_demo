@@ -1,0 +1,9 @@
+plugin.tx_jsr170repodemo_pi1 {
+repository.connect=rmi
+#repository.rmi.repoUrl = //localhost:1099/crx.repository
+#repository.rmi.factory = org.apache.jackrabbit.rmi.client.ClientRepositoryFactory
+
+repository.rmi.repoUrl = //www5.dkd.de:1099/crx.repository
+repository.rmi.factory = org.apache.jackrabbit.rmi.client.ClientRepositoryFactory
+
+}
